@@ -1,5 +1,6 @@
 <?php
-   public function calcular($j)
+namespace Roman;
+function calcular($j)
     {$numero=$j;
     $m = 0;
     $c = 0;
