@@ -1,5 +1,5 @@
 <?php
-    function calcular($j)
+   public function calcular($j)
     {$numero=$j;
     $m = 0;
     $c = 0;
