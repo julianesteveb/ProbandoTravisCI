@@ -1,6 +1,7 @@
 <?php
 namespace Roman;
 use PHPUnit\Framework\TestCase;
+class RomanosTest extends TestCase {
 $numeros = [
 1  => 'I',
 2  => 'II',
@@ -4002,7 +4003,6 @@ $numeros = [
 3998  => 'MMMCMXCVIII',
 3999  => 'MMMCMXCIX'
 ];
-class RomanosTest extends TestCase {
   public function testNum() {
     for ($t = 1; $t <= 3999; ++$t){
       $num= new romans($t);
