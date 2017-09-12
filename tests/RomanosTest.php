@@ -4005,7 +4005,8 @@ $numeros = [
 class romantest extends TestCase {
   public function testNum() {
     for ($t = 1; $t <= 3999; ++$t){
-    $this->assertEquals($romans->calcular($t), $numeros[$t]);
+      $valor= new romans($t);
+      $this->assertEquals($num->calcular($num->valor), $numeros[$t]);
 }
 
   }
