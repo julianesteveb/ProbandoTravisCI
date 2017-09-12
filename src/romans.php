@@ -68,8 +68,4 @@ function calcular($j)
     $numerorom = $mil[$m]. $cen[$c] . $deci[$d] . $uni[$numero];
     echo "Numero: " . $j . " Numero en romano: " . $numerorom . " ";
   }
-
-  calcular(2000);
-  calcular(300);
-  calcular(3999);
 ?>
