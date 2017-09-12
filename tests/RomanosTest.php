@@ -4002,7 +4002,7 @@ $numeros = [
 3998  => 'MMMCMXCVIII',
 3999  => 'MMMCMXCIX'
 ];
-class romantest extends TestCase {
+class RomanosTest extends TestCase {
   public function testNum() {
     for ($t = 1; $t <= 3999; ++$t){
       $num= new romans($t);
