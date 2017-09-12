@@ -1,8 +1,12 @@
 <?php
 namespace Roman;
 class romans{
-function calcular($j)
-    {$numero=$j;
+public $valor;
+function __construct($t)
+{$this->valor=$t;
+}
+    function calcular($j)
+    {$numero=$j->valor;
     $m = 0;
     $c = 0;
     $d = 0;
