@@ -1,12 +1,12 @@
 <?php
 namespace Roman;
-class romans{
+class romans {
 public $valor;
 function __construct($t)
 {$this->valor=$t;
 }
-    function calcular($j)
-    {$numero=$j->valor;
+    function calcular()
+    {$numero=$this->valor;
     $m = 0;
     $c = 0;
     $d = 0;
@@ -71,7 +71,7 @@ function __construct($t)
    
    
     $numerorom = $mil[$m]. $cen[$c] . $deci[$d] . $uni[$numero];
-    echo "Numero: " . $j . " Numero en romano: " . $numerorom . " ";
+    return "Numero: " . $this->valor . " Numero en romano: " . $numerorom . " ";
   }
 }
 ?>
